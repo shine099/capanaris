@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Patient Information Form</title>
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+    font-weight: bold;
+  }
+  th {
+    font-weight: bold;
+  }
+  .checkbox-group {
+    white-space: nowrap;
+    margin-right: 5px;
+  }
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th colspan="4">NAME:</th>
+    <th colspan="2"><img src="logo.png" alt="logo"></th>
+  </tr>
+  <tr>
+    <td colspan="2">PERMANENT ADDRESS</td>
+    <td>CONTACT NO.</td>
+    <td>
+      SEX <br>
+      <span class="checkbox-group"><input type="checkbox" id="female" name="sex" value="F"> <label for="female">F</label></span>
+      <span class="checkbox-group"><input type="checkbox" id="male" name="sex" value="M"> <label for="male">M</label></span>
+      <span class="checkbox-group"><input type="checkbox" id="unknown" name="sex" value="U"> <label for="unknown">U</label></span>
+    </td>
+    <td colspan="2">CIVIL STATUS</td>
+  </tr>
+  <tr>
+    <th>BIRTHDATE</th>
+    <th>AGE</th>
+    <th>BIRTHPLACE</th>
+    <th>NATIONALITY</th>
+    <th>RELIGION</th>
+    <th>OCCUPATION<p></p></th>
+  </tr>
+  <tr>
+    <td colspan="2">EMPLOYER (Type of Business)<p></p></td>
+    <td colspan="2">ADDRESS</td>
+    <td colspan="2">TEL NO.</td>
+  </tr>
+  <tr>
+    <td colspan="2">FATHER'S NAME<p></p></td>
+    <td colspan="2">ADDRESS</td>
+    <td colspan="2">TEL NO.</td>
+  </tr>
+  <tr>
+    <td colspan="2">MOTHER'S (MAIDEN) NAME<p></p></td>
+    <td colspan="2">ADDRESS</td>
+    <td colspan="2">TEL NO.</td>
+  </tr>
+  <tr>
+    <td colspan="2">SPOUSE NAME<p></p></td>
+    <td colspan="2">ADDRESS</td>
+    <td colspan="2">TEL NO.</td>
+  </tr>
+  <tr>
+    <td colspan="6">ALLERGENS<p></p></td>
+  </tr>
+</table>
+
+</body>
+</html>
